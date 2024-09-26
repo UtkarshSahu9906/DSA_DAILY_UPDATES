@@ -1,13 +1,34 @@
-# Ignore compiled object files
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
 *.obj
+*.class
 
-# Ignore executables
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
 *.exe
-*.git
+*.out
 *.app
-
-# Ignore directory where build files are stored
-/build/
-/bin/
-/lib/
