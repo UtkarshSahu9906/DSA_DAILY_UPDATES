@@ -10,8 +10,6 @@ public class subArrayMaxOutput {
 
             for (int j = i; j < array.length; j++) {
                 temp=0;
-
-
                 for (int k = i; k <=j; k++) {
                      temp +=array[k];
                 }
