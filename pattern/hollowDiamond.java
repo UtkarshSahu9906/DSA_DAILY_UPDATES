@@ -4,7 +4,7 @@ public class hollowDiamond {
 
     public static void main(String[] args) {
         //enter odd number
-        printHollowDiamondPattern(19);
+        printHollowDiamondPattern(10);
     }
 
     static void printHollowDiamondPattern(int num) {
